@@ -1,11 +1,14 @@
 import React from 'react'
 import {createRoot} from "react-dom/client";
+import Navbar from "./sections/Navbar.jsx";
+import Hero from "./sections/Hero.jsx";
 
 export const App = () => {
     return (
-        <div><h1 class="text-3xl font-bold underline text-red-500">
-            Hello world!
-        </h1></div>
+        <div className="container mx-auto max-w-7xl">
+            <Navbar />
+            <Hero />
+        </div>
     )
 }
 export default App

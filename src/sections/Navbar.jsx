@@ -15,12 +15,12 @@ function Navigation() {
             </li>
             <li className="nav-li">
                 <a className="nav-link" href="#work">
-                    Work
+                    Projects
                 </a>
             </li>
             <li className="nav-li">
-                <a className="nav-link" href="#contact">
-                    Contact
+                <a className="nav-link" href="#connect">
+                    Connect
                 </a>
             </li>
         </ul>

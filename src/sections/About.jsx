@@ -58,7 +58,10 @@ const About = () => {
                 <div className="grid-default-color grid-5">
                     <div className="z-10 w-[50%]">
                         <p className="headtext">Tech Stack</p>
-                        <p className="subtext">Languages and Framework I use to build robust applications</p>
+                        <p className="subtext"><b>Languages:</b> Python, C, SQL, Bash</p>
+                        <p className="subtext"><b>Libraries:</b> Pandas, Numpy, Selenium, BeautifulSoup, Scikit-learn</p>
+                        <p className="subtext"><b>Web:</b> HTML, CSS, Javascript, Flask, ReactJs, NodeJs, ExpressJs</p>
+                        <p className="subtext"><b>Database:</b> MySQL, PostgreSQL, MongoDB</p>
                     </div>
                     <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start[50%] md:scale-125">
                         <Frameworks/>

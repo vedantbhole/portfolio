@@ -4,17 +4,27 @@ import Navbar from "./sections/Navbar.jsx";
 import Hero from "./sections/Hero.jsx";
 import About from "./sections/About.jsx";
 import Projects from "./sections/Projects.jsx";
+import Footer from "./sections/Footer.jsx";
 import {DotPattern} from "./components/DotPattern.jsx";
 
 export const App = () => {
     return (
         <div className="relative overflow-y-hidden">
             <DotPattern className="absolute inset-0 w-full"/>
-            <div className="relaive container mx-auto max-w-7xl">
+            <div className="relative container mx-auto max-w-7xl">
                 <Navbar />
-                <Hero />
-                <About />
-                <Projects />
+                <section id="home" className="scroll-mt-20">
+                    <Hero />
+                </section>
+                <section id="about" className="scroll-mt-20">
+                    <About />
+                </section>
+                <section id="work" className="scroll-mt-20">
+                    <Projects />
+                </section>
+                <section id="connect" className="scroll-mt-20">
+                    <Footer />
+                </section>
             </div>
 
         </div>
